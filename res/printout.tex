@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage[a4paper, total={7.1in, 8.4in}]{geometry}
+\usepackage{tcolorbox}
+\usepackage{listings}
+\makeatother
+\tcbset{
+  colframe=cyan,
+  colback=cyan!30,
+  colbacktitle=cyan,
+  title=Answer,
+  fonttitle=\bfseries
+}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\lstset{%frame=tb,
+  language=Java,
+  aboveskip=2mm,
+  belowskip=2mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\begin{document}
+
+\section{ModuleDescriptor.java}
+\lstinputlisting{../src/ModuleDescriptor.java}
+
+\section{Student.java}
+\lstinputlisting{../src/Student.java}
+
+\section{StudentRecord.java}
+\lstinputlisting{../src/StudentRecord.java}
+
+\section{Module.java}
+\lstinputlisting{../src/Module.java}
+
+\section{University.java}
+\lstinputlisting{../src/University.java}
+
+
+\end{document}
