@@ -4,3 +4,7 @@ Continuous Assessment for ECM1410 - Object-Oriented Programming, set by Prof. Di
 This work received a final mark of 72/100.
 
 Please see `specification.pdf` for specification.
+
+### Footnotes
+
+Developed by Talhaa Hussain and Reuben Kurian for the University of Exeter, module code ECM1410.
