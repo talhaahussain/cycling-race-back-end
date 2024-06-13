@@ -5,6 +5,10 @@ This work received a final mark of 72/100.
 
 Please see `specification.pdf` for specification.
 
+### Compilation, Usage and Testing
+
+See section 3 of `specification.pdf`.
+
 ### Footnotes
 
 Developed by Talhaa Hussain and Reuben Kurian for the University of Exeter, module code ECM1410.
